@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 1
+Size: 0
+Timestamp: Thu Jul 16 14:38:31 IST 2020
+TestStep: placeid transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: error: Unexpected end of file after null
+
+----------------- Messages ------------------------------
+Error performing transfer [placeid] - error: Unexpected end of file after null
+----------------------------------------------------
+placeid transferred [[error: Unexpected end of file after null]] from [Add.Request] to [placeid.place_id]
+------------ source path -------------
+//place_id
+------------ target path -------------
+

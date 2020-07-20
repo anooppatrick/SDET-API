@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 45
+Size: 0
+Timestamp: Thu Jul 16 14:38:31 IST 2020
+TestStep: Place id Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Error parsing target property [error: Unexpected end of file after null]
+
+----------------- Messages ------------------------------
+Error performing transfer [placeid] - Error parsing target property [error: Unexpected end of file after null]
+----------------------------------------------------
+placeid transferred [[Error parsing target property [error: Unexpected end of file after null]]] from [Add.Response] to [Delete.Request]
+------------ source path -------------
+//place_id
+------------ target path -------------
+//place_id
