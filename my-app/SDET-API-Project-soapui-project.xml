@@ -1833,7 +1833,7 @@ declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 //result</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="5adb189f-a2db-4378-b9ab-b6ea12464455" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="End to End Testing - Data Driven" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Get Data from excel" id="0700ec1e-d5b9-4978-a075-a0d77d3bde96"><con:settings/><con:config><script>import jxl.*
 def name,value
-String filepath = "my-app/UserDetails.xls"
+String filepath = "C:/Users/Anoop/Desktop/SDET/Project/my-app/UserDetails.xls"
 File Excel = new File(filepath)
 Workbook wb = Workbook.getWorkbook(Excel)
 Sheet sh = wb.getSheet("Data")
@@ -1906,7 +1906,7 @@ declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 //result</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="75777bf3-ada1-417d-ae34-573dfab7f511" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="End to End Testing - Data Driven with multiple test cases" searchProperties="true"><con:settings/><con:testStep type="groovy" name="End to End Data driven with multiple test cases" id="6f5d9ed1-81db-4984-a805-829f73e67a31"><con:settings/><con:config><script>import jxl.*
 def name,value
-String filepath = "my-app/UserDetailsMultiple.xls"
+String filepath = "C:/Users/Anoop/Desktop/SDET/Project/my-app/UserDetailsMultiple.xls"
 File Excel = new File(filepath)
 Workbook wb = Workbook.getWorkbook(Excel)
 Sheet sh = wb.getSheet("Data")
